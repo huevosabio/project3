@@ -1,0 +1,20 @@
+
+  <link rel="stylesheet" type="text/css" href="p2.css" />
+
+  <table cellspacing="0">
+	<tr class="mufasaHeader">
+		<% tabs.each do |label, url|%>
+			<% if label == selected %>
+					<td></td>
+					<td class="leftClicked"><div></div></td>		
+					<th class="clicked"><a href=<%=url%>><b><%=label%></b></a></th>
+					<td class="rightClicked"><div></div></td>
+			<% else %>
+					<td></td>
+					<td class="leftNotClicked"><div></div></td>
+					<th class="notClicked"><a href=<%=url%>><%=label%></a></th>
+					<td class="rightNotClicked"><div></div></td>
+		
+		<td class="last"><div></div></td>
+	</tr>
+	</table>
