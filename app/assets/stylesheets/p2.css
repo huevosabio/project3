@@ -1,0 +1,52 @@
+th.notClicked{
+background-image: url('mid.gif');
+}
+
+td.rightNotClicked{
+background-image: url('right.gif');
+}
+
+td.leftNotClicked{
+background-image: url('left.gif');
+}
+
+
+th.clicked{
+background-image: url('mid-selected.gif');
+border-bottom: none;
+font-weight:bold;
+}
+
+a:hover{color:#cc6600}
+
+a{
+text-decoration:none;
+color:black;
+font-weight:100;
+}
+
+
+td.rightClicked{
+border-bottom: none;
+background-image: url('right-selected.gif');
+}
+
+td.leftClicked{
+border-bottom: none;
+background-image: url('left-selected.gif');
+}
+
+td,th{
+min-width:1px;
+border-bottom: 1px solid #cccccc;
+white-space:nowrap;
+}
+
+td.last{
+width:100%;
+}
+
+body{
+font-family: tahoma;
+font-size:13px;
+}

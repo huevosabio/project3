@@ -1,3 +1,55 @@
 // Place all the styles related to the tabs controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+th.notClicked{
+background-image: image-url('mid.gif');
+}
+
+td.rightNotClicked{
+background-image: image-url('right.gif');
+}
+
+td.leftNotClicked{
+background-image: image-url('left.gif');
+}
+
+
+th.clicked{
+background-image: image-url('mid-selected.gif');
+border-bottom: none;
+font-weight:bold;
+}
+
+a:hover{color:#cc6600}
+
+a{
+text-decoration:none;
+color:black;
+font-weight:100;
+}
+
+
+td.rightClicked{
+border-bottom: none;
+background-image: image-url('right-selected.gif');
+}
+
+td.leftClicked{
+border-bottom: none;
+background-image: image-url('left-selected.gif');
+}
+
+td,th{
+min-width:1px;
+border-bottom: 1px solid #cccccc;
+white-space:nowrap;
+}
+
+td.last{
+width:100%;
+}
+
+body{
+font-family: tahoma;
+font-size:13px;
+}
