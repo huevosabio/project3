@@ -1,4 +1,6 @@
 Project3::Application.routes.draw do
+  get "tabs/show2"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
